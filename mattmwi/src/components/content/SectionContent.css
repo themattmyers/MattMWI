@@ -1,0 +1,50 @@
+.body-section-header{
+    color: white;
+    font-size: 300%;
+    font-weight: 700;
+
+}
+
+.header-border{
+    border-bottom: solid 4px;
+    border-color: #DEBF79;
+    padding-bottom: 5px;
+}
+
+.body-section{
+    color: white;
+    font-size: medium;
+    margin-right: 5%;
+}
+
+.body-container{
+    align-items: center;
+    margin-left: 5%;
+}
+
+.p-link{
+    color: #DEBF79;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nameList{
+    color: white;
+    font-size: xx-large;
+}
+
+@media screen and (min-width: 56rem) {
+    .body-section-header{
+        font-size: 400%;
+        font-weight: 800;
+    }
+    .header-border{
+        border-bottom: solid 8px;
+        border-color: #DEBF79;
+        padding-bottom: 10px;
+    }
+    .body-section{
+        color: white;
+        font-size: x-large;
+    }
+}
